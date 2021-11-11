@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<Context source="org.eclipse.jst.jee.server:mvcmemberr"
+		reloadable="true" path="/mvcmemberr" docBase="mvcmemberr">
+
+		<Resource removeAbandoned="true" maxIdle="3" maxActive="20"
+			password="bit" username="c##java"
+			url="jdbc:oracle:thin:@localhost:1521:xe"
+			driverClassName="oracle.jdbc.driver.OracleDriver"
+			type="javax.sql.DataSource" name="jdbc/oracle" />
+	</Context>
+
